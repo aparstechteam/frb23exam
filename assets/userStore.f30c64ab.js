@@ -1,0 +1,1 @@
+import{G as t}from"./index.5979cc9f.js";const u=t("user",()=>{const r=JSON.parse(localStorage.getItem("frb23exam"))||null;function s(e){e.value=e}return{user:r,setUser:s}},{persist:{include:["user"],key:"frb23userpinia"}});export{u};

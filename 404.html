@@ -1,0 +1,9 @@
+<script>
+  let path = location.href;
+  localStorage.setItem(
+    "path",
+    path.replace("https://apars.tech/frb23exam", "")
+  );
+
+  window.location.href = "https://apars.tech/frb23exam";
+</script>
